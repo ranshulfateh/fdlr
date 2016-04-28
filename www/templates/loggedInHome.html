@@ -1,0 +1,15 @@
+<ion-view title="Logged In Home" id="page6">
+    <ion-content padding="true" class="has-header">
+        <h3 id="loggedInHome-heading5" style="color:#000000;text-align:center;">Welcome Home</h3>
+    <!--Form For FireBase Upload -->
+    <div ng-controller="ListCtrl">
+        <form ng-submit="addItem()">
+            <input type="text" ng-model="headline"/>
+            <input type="text" ng-model="desc"/>
+            <input type="text" ng-model="name"/>
+            <input type="submit" value="Submit"/>
+        </form>
+    </div>
+    <!--END  --  x  --  Form For FireBase Upload -->
+    </ion-content>
+</ion-view>
